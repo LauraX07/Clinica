@@ -1,0 +1,86 @@
+﻿@model Clinica.Models.CadPac
+
+@{
+    ViewData["Title"] = "Cadastrar";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Clinica.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <form asp-action="Cadastrar" method="post" novalidate>
+        <div class="cadP">
+            <div class="form-group">
+                <select id="inputO" class="form-control">
+                    <option selected>Selecionar tipo de acesso...</option>
+                    <option>Paciente</option>
+                    <option>Médico</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Carteirinha"></label>
+                <input asp-for="Carteirinha" class="form-control" id="inputCarteirinha">
+                <span asp-validation-for="Carteirinha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="inputCPF">CPF</label>
+                <input asp-for="Cpf" class="form-control" id="inputCPF">
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
+                <label for="inputNome">Nome</label>
+                <input asp-for="Nome" class="form-control" id="inputNome">
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="inputNasci">Data de Nascimento</label>
+                <input asp-for="DataNasci" type="date" class="form-control" id="inputNasc">
+                <span asp-validation-for="DataNasci" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input asp-for="Email" type="email" class="form-control" id="inputEmail">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+                <div class="form-group">
+                    <label for="inputSenha">Senha</label>
+                    <input asp-for="Senha" type="password" class="form-control" id="inputSenha">
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-1">
+                <select asp-for="Sexo" id="inputOpSex" class="form-control">
+                    <option selected>Selecionar sexo:</option>
+                    <option value="F">Feminino</option>
+                    <option value="M">Masculino</option>
+                  </select>
+                    <span asp-validation-for="Sexo" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputTel">Telefone</label>
+                <input asp-for="Telefone" type="tel" class="form-control" id="inputTel" placeholder="Telefone">
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+            <select asp-for="IdPlano"  id="inputPlano" class="form-control">
+                    <option selected>Selecione o Plano:</option>
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
+            </select>
+            </div>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>

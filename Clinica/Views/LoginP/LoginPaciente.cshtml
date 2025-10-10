@@ -1,0 +1,45 @@
+﻿@model Clinica.Models.LoginPac
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Clinica.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <form asp-action="Login">
+        <div class="LoginP">
+            <div class="form-group">
+                <select id="inputOpcao" class="form-control">
+                    <option selected>Selecionar tipo de acesso...</option>
+                    <option>Paciente</option>
+                    <option>Médico</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="inputCarteirinha">Carteirinha</label>
+                <input type="text" class="form-control" id="inputCarteirinha">
+                <span asp-validation-for="Carteirinha" class="text-danger"></span>
+            </div>
+            <!--
+            <div class="form-group">
+                <label for="inputCPF">CPF</label>
+                <input type="text" class="form-control" id="inputCPF">
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+            -->
+            <div class="form-row">
+                <div class="form-group col-md-8">
+                    <label for="inputSenha">Senha</label>
+                    <input type="password" class="form-control" id="inputSenha">
+                    <span asp-validation-for="Senha" class="text-danger"></span> 
+                </div>
+            </div>
+        </div>
+            <button type="submit" class="btn">Acessar</button>
+    </form>
+</body>
+</html>

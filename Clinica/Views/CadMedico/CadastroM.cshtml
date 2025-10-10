@@ -1,0 +1,51 @@
+﻿@model Clinica.Models.CadMec
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Clinica.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <form asp-action="Cadastrar">
+        <div class="cadM">
+            <div class="form-group">
+                <select id="inputOpcao" class="form-control">
+                    <option selected>Selecionar tipo de acesso...</option>
+                    <option>Paciente</option>
+                    <option>Médico</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="inputCRM">CRM</label>
+                <input type="text" class="form-control" id="inputCRM">
+                <span asp-validation-for="CRM" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="inputNome">Nome</label>
+                <input type="text" class="form-control" id="inputCPF">
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+                <div class="form-group col-md-8">
+                    <label for="inputSenha">Senha</label>
+                    <input type="password" class="form-control" id="inputSenha">
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+            <div class="form-group">
+                <label for="inputTel">Telefone</label>
+                <input type="tel" class="form-control" id="inputTel" placeholder="Telefone">
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+        </div>
+        <button type="submit" class="btn">Cadastrar</button>
+    </form>
+</body>
+</html>
