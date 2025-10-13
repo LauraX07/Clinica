@@ -33,7 +33,7 @@ namespace Clinica.Controllers
             connection.Open();
 
             string sql = "INSERT INTO tbPaciente (Carteirinha, Cpf, Nome, DataNasci, Email, Senha, Telefone, Sexo, IdPlano) " +
-                               "VALUES(@Carteirinha, @Cpf, @Nome, STR_TO_DATE (@DataNasci, '%d/%m/%Y'), @Email, @Senha, @Sexo, @Telefone, @IdPlano)";
+                                         "VALUES(@Carteirinha, @Cpf, @Nome, STR_TO_DATE (@DataNasci, '%d/%m/%Y'), @Email, @Senha, @Telefone, @Sexo, @IdPlano)";
             MySqlCommand command = new MySqlCommand(sql, connection);
             command.Parameters.AddWithValue("@Carteirinha", cadpac.Carteirinha);
             command.Parameters.AddWithValue("@Cpf", cadpac.Cpf);

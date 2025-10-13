@@ -1602,26 +1602,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\layla\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\2ds\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\layla\\OneDrive\\Área de Trabalho\\ProjetoClinica\\Clinica\\Clinica.csproj",
+      "projectUniqueName": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Clinica.csproj",
       "projectName": "Clinica",
-      "projectPath": "C:\\Users\\layla\\OneDrive\\Área de Trabalho\\ProjetoClinica\\Clinica\\Clinica.csproj",
-      "packagesPath": "C:\\Users\\layla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\layla\\OneDrive\\Área de Trabalho\\ProjetoClinica\\Clinica\\obj\\",
+      "projectPath": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Clinica.csproj",
+      "packagesPath": "C:\\Users\\2ds\\.nuget\\packages\\",
+      "outputPath": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\layla\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\2ds\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1646,8 +1639,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1677,7 +1669,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
