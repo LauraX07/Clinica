@@ -15,6 +15,18 @@ Valor decimal(6,2) not null,
 Tipo char(1) not null
 );
 
+create table tbPaciente (
+Carteirinha char(9) primary key,
+Cpf char(11) unique not null,
+Nome varchar(70) not null,
+DataNasci date not null,
+Email varchar(70) not null,
+Senha varchar(20) not null,
+Telefone char(11) not null,
+Sexo char(1) not null,
+IdPlano int,
+foreign key (IdPlano) references tbPlano(IdPlano)
+);
 
 create table Unidade_Plano(
 IdUnidade int,
@@ -49,19 +61,6 @@ foreign key (IdUnidade) references tbUnidade(IdUnidade),
 foreign key (Crm) references tbMedico(Crm)
 );
 
-
-create table tbPaciente (
-Carteirinha char(9) primary key,
-Cpf char(11) unique not null,
-Nome varchar(70) not null,
-DataNasci date not null,
-Email varchar(70) not null,
-Senha varchar(20) not null,
-Telefone char(11) not null,
-Sexo char(1) not null,
-IdPlano int,
-foreign key (IdPlano) references tbPlano(IdPlano)
-);
 
 create table tbAgenda (
 IdAgenda int primary key,
@@ -107,3 +106,7 @@ foreign key (IdConsulta)
 references tbConsulta(IdConsulta)
 );
 
+insert into tbPlano (IdPlano, Nome, Valor, Tipo)
+		values (1,'Sorria+', 55.00, 'A');
+
+select * from tbPaciente;

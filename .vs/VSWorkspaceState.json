@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Clinica",
+    "\\Clinica\\Controllers"
   ],
+  "SelectedNode": "\\Clinica\\Controllers\\CadPaciente.cs",
   "PreviewInSolutionExplorer": false
 }
