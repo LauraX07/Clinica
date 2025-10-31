@@ -103,7 +103,6 @@ F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\bin\Debug\net8.0\K4os.Compr
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\bin\Debug\net8.0\K4os.Hash.xxHash.dll
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\bin\Debug\net8.0\MySql.Data.dll
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\bin\Debug\net8.0\System.IO.Pipelines.dll
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\bin\Debug\net8.0\System.Security.Permissions.dll
@@ -129,11 +128,6 @@ F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\Clinica.Ra
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\Clinica.sourcelink.json
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets.build.json
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets.development.json
-F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets\msbuild.Clinica.Microsoft.AspNetCore.StaticWebAssets.props
-F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets\msbuild.build.Clinica.props
-F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Clinica.props
-F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Clinica.props
-F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets.pack.json
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\scopedcss\bundle\Clinica.styles.css
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\scopedcss\projectbundle\Clinica.bundle.scp.css
@@ -200,3 +194,11 @@ C:\Users\2ds\Desktop\ProjetoClinica\Clinica\obj\Debug\net8.0\refint\Clinica.dll
 C:\Users\2ds\Desktop\ProjetoClinica\Clinica\obj\Debug\net8.0\Clinica.pdb
 C:\Users\2ds\Desktop\ProjetoClinica\Clinica\obj\Debug\net8.0\Clinica.genruntimeconfig.cache
 C:\Users\2ds\Desktop\ProjetoClinica\Clinica\obj\Debug\net8.0\ref\Clinica.dll
+F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\bin\Debug\net8.0\Clinica.staticwebassets.endpoints.json
+F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

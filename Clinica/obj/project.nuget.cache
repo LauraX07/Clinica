@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rIaYhEc8f/U=",
+  "dgSpecHash": "FKCzVFZuXdI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\2ds\\Desktop\\ProjetoClinica\\Clinica\\Clinica.csproj",
+  "projectFilePath": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Clinica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2ds\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\2ds\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
