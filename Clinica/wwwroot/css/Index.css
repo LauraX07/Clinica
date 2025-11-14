@@ -1,0 +1,196 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-bottom: 60px;
+    background: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.imgbg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    display: block;
+    object-fit: cover;
+}
+
+.containerP {
+    background: linear-gradient(135deg, #4ec68f, #357c8d);
+    padding: 3% 4%;
+    border-radius: 4%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin-left: 45%;
+   
+}
+
+.form-group {
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 4%;
+    font-weight: 600;
+    color: white;
+    font-size: 12px;
+}
+
+input,
+select {
+    width: 100%;
+    height: 23px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 1px;
+}
+
+
+select, option {
+    font-size: 13px;
+}
+
+
+.linha {
+    flex-direction: row;
+}
+
+    .linha #inputSenha {
+        width: 55%;
+        flex-direction: row;
+        position: sticky;
+    }
+
+    .linha #inputOpSex {
+        margin-left: 60%;
+        margin-top: -10%;
+        width: 40%;
+        flex-direction: row;
+        display: block;
+    }
+
+    .linha #inputTel {
+        display: flex;
+        position: sticky;
+        width: 55%;
+        flex-direction: row;
+    }
+
+    .linha #inputPlano {
+        margin-left: 60%;
+        margin-top: -10%;
+        width: 40%;
+        flex-direction: row;
+    }
+
+input:focus,
+select:focus {
+    border-color: #0077b6;
+    box-shadow: 0 0 5px rgba(0, 119, 182, 0.3);
+    outline: none;
+}
+
+/*
+
+.field-validation-error {
+    color: red;
+    font-size: 10px;
+
+}
+
+#inputPlano + .field-validation-error {
+    margin-left: 60%;
+}
+
+
+.radio-group,
+.select-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+}
+
+
+.btn{
+    height: 5vh;
+    background-color: #0096c7;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;    
+}
+
+    .btn:hover {
+        background-color: #0077b6;
+    }
+
+.voltar {
+    
+    top: 10px;
+    left: 30px;
+    border: none;
+    background: none;
+    color: #3b3e3f;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+button #seta {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    width: -20%; 
+    height: auto; 
+    object-fit: cover; 
+    image-rendering: auto;
+}*/

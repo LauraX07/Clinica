@@ -4,7 +4,7 @@ namespace Clinica.Controllers
 {
     public class LoginP : Controller
     {
-        public IActionResult LoginPac()
+        public IActionResult LoginPaciente()
         {
             return View();
         }

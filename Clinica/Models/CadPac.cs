@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Numerics;
 namespace Clinica.Models
 {
@@ -18,7 +19,7 @@ namespace Clinica.Models
 
         [Required(ErrorMessage = "A data de nascimento é obrigatória")]
         [DataType(DataType.Date)]
-        public DateOnly DataNasci { get; set; }
+        public DateOnly? DataNasci { get; set; }
 
         [EmailAddress(ErrorMessage = "Informe um e-mail válido.")]
         public string?  Email { get; set; }
@@ -34,8 +35,9 @@ namespace Clinica.Models
         [RegularExpression(@"^\d{10,11}$", ErrorMessage = "O telefone deve conter apenas números")]
         public string? Telefone { get; set; }
 
+        public int?  IdPlano { get; set; }
+
         [Required(ErrorMessage = "O Plano é obrigatório.")]
-        public int  IdPlano { get; set; }
         public Plano? PlanoPac { get; set; }
 
 

@@ -7,6 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\LoginP\**" />
+    <Content Remove="Views\LoginP\**" />
+    <EmbeddedResource Remove="Views\LoginP\**" />
+    <None Remove="Views\LoginP\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\LoginP.cs" />
+    <Compile Remove="Models\LoginPac.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MySql.Data" Version="9.4.0" />
   </ItemGroup>
 

@@ -46,7 +46,7 @@ namespace Clinica.Controllers
             command.Parameters.AddWithValue("@IdPlano", cadpac.IdPlano);
             command.ExecuteNonQuery();
 
-            return RedirectToAction("Sucesso");
+            return RedirectToAction("");
         }
     }
 }

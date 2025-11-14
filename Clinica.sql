@@ -36,21 +36,13 @@ foreign key (IdUnidade) references tbUnidade(IdUnidade),
 foreign key (IdPlano) references tbPlano(IdPlano)
 );
 
-create table tbEspecialidade(
-IdEspecialidade int primary key,
-NomeE varchar(25) not null
-);
-
 create table tbMedico (
 Crm varchar(10) primary key,
 Nome varchar(70) not null,
 Telefone char(11) not null,
 Email varchar(70) not null,
 Senha varchar(20) not null,
-IdEspecialidade int,
-constraint Medico_Especialidade 
-foreign key (IdEspecialidade) 
-references tbEspecialidade(IdEspecialidade)
+Especialidade varchar(45)
 );
 
 create table Unidade_Medico(

@@ -1,42 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\",
+  "WorkspaceRootPath": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|f:\\2a-ds-pi\\laura e dainez\\ds\\projetoclinica\\clinica\\controllers\\cadpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\controllers\\cadpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\controllers\\cadpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|f:\\2a-ds-pi\\laura e dainez\\ds\\projetoclinica\\clinica\\models\\cadmec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\models\\cadmec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|f:\\2a-ds-pi\\laura e dainez\\ds\\projetoclinica\\clinica\\controllers\\cadmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\controllers\\cadmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|f:\\2a-ds-pi\\laura e dainez\\ds\\projetoclinica\\clinica\\models\\cadpac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\models\\cadpac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|f:\\2a-ds-pi\\laura e dainez\\ds\\projetoclinica\\clinica\\views\\cadpaciente\\cadastrop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\views\\cadpaciente\\cadastrop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\cadpaciente\\cadastrop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|f:\\2a-ds-pi\\laura e dainez\\ds\\projetoclinica\\clinica\\models\\loginpac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\models\\loginpac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|f:\\2a-ds-pi\\laura e dainez\\ds\\projetoclinica\\clinica\\views\\cadmedico\\cadastrom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\cadmedico\\cadastrom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|f:\\2a-ds-pi\\laura e dainez\\ds\\projetoclinica\\clinica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|f:\\2a-ds-pi\\laura e dainez\\ds\\projetoclinica\\clinica\\controllers\\loginp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\controllers\\loginp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,131 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CadMec.cs",
-              "DocumentMoniker": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Models\\CadMec.cs",
-              "RelativeDocumentMoniker": "Clinica\\Models\\CadMec.cs",
-              "ToolTip": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Models\\CadMec.cs",
-              "RelativeToolTip": "Clinica\\Models\\CadMec.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:43:01.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CadastroM.cshtml",
-              "DocumentMoniker": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Views\\CadMedico\\CadastroM.cshtml",
-              "RelativeDocumentMoniker": "Clinica\\Views\\CadMedico\\CadastroM.cshtml",
-              "ToolTip": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Views\\CadMedico\\CadastroM.cshtml",
-              "RelativeToolTip": "Clinica\\Views\\CadMedico\\CadastroM.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T13:27:46.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CadastroP.cshtml",
-              "DocumentMoniker": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Views\\CadPaciente\\CadastroP.cshtml",
+              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Views\\CadPaciente\\CadastroP.cshtml",
               "RelativeDocumentMoniker": "Clinica\\Views\\CadPaciente\\CadastroP.cshtml",
-              "ToolTip": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Views\\CadPaciente\\CadastroP.cshtml*",
-              "RelativeToolTip": "Clinica\\Views\\CadPaciente\\CadastroP.cshtml*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAuwBcAAAAnAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Views\\CadPaciente\\CadastroP.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\CadPaciente\\CadastroP.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T13:16:28.239Z",
+              "WhenOpened": "2025-11-09T14:45:27.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "site.css",
-              "DocumentMoniker": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Clinica\\wwwroot\\css\\site.css",
-              "ToolTip": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Clinica\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Index.css",
+              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\wwwroot\\css\\Index.css",
+              "RelativeDocumentMoniker": "Clinica\\wwwroot\\css\\Index.css",
+              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\wwwroot\\css\\Index.css",
+              "RelativeToolTip": "Clinica\\wwwroot\\css\\Index.css",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAH8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-22T13:25:56.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CadPac.cs",
-              "DocumentMoniker": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Models\\CadPac.cs",
-              "RelativeDocumentMoniker": "Clinica\\Models\\CadPac.cs",
-              "ToolTip": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Models\\CadPac.cs",
-              "RelativeToolTip": "Clinica\\Models\\CadPac.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T13:31:29.109Z",
+              "WhenOpened": "2025-11-09T14:45:33.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CadPaciente.cs",
-              "DocumentMoniker": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Controllers\\CadPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Controllers\\CadPaciente.cs",
               "RelativeDocumentMoniker": "Clinica\\Controllers\\CadPaciente.cs",
-              "ToolTip": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Controllers\\CadPaciente.cs",
+              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Controllers\\CadPaciente.cs",
               "RelativeToolTip": "Clinica\\Controllers\\CadPaciente.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T13:17:04.121Z",
+              "WhenOpened": "2025-11-14T17:22:03.829Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CadMedico.cs",
-              "DocumentMoniker": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Controllers\\CadMedico.cs",
-              "RelativeDocumentMoniker": "Clinica\\Controllers\\CadMedico.cs",
-              "ToolTip": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Controllers\\CadMedico.cs",
-              "RelativeToolTip": "Clinica\\Controllers\\CadMedico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T13:17:02.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginPac.cs",
-              "DocumentMoniker": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Models\\LoginPac.cs",
-              "RelativeDocumentMoniker": "Clinica\\Models\\LoginPac.cs",
-              "ToolTip": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Models\\LoginPac.cs",
-              "RelativeToolTip": "Clinica\\Models\\LoginPac.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T13:16:47.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginP.cs",
-              "DocumentMoniker": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Controllers\\LoginP.cs",
-              "RelativeDocumentMoniker": "Clinica\\Controllers\\LoginP.cs",
-              "ToolTip": "F:\\2A-DS-PI\\Laura e Dainez\\DS\\ProjetoClinica\\Clinica\\Controllers\\LoginP.cs",
-              "RelativeToolTip": "Clinica\\Controllers\\LoginP.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T13:16:43.836Z"
             }
           ]
         }

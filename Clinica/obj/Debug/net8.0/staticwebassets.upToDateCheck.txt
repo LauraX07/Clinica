@@ -1,6 +1,4 @@
 wwwroot\favicon.ico
-wwwroot\img\plantas.jpg
-wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -58,4 +56,9 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\site.css
+wwwroot\img\dente1.png
+wwwroot\img\dente4bg.jpg
+wwwroot\css\Login.css
+wwwroot\js\Index.js
+wwwroot\css\Index.css
+wwwroot\img\seta.png

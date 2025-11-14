@@ -202,3 +202,4 @@ F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\rjsmcshtml
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets.build.json.cache
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 F:\2A-DS-PI\Laura e Dainez\DS\ProjetoClinica\Clinica\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\layla\OneDrive\Área de Trabalho\ProjetoClinica\Clinica\obj\Debug\net8.0\Clinica.sourcelink.json

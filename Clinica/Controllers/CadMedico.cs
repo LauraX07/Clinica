@@ -12,7 +12,7 @@ namespace Clinica.Controllers
         {
             _configuration = configuration;
         }
-        
+
         [HttpGet]
         public IActionResult CadastroM()
         {
@@ -32,21 +32,19 @@ namespace Clinica.Controllers
             using var connection = new MySqlConnection(connectionString);
             connection.Open();
 
-            string sql = "INSERT INTO tbPaciente (Carteirinha, Cpf, Nome, DataNasci, Email, Senha, Telefone, Sexo, IdPlano) " +
-                                         "VALUES(@Carteirinha, @Cpf, @Nome, STR_TO_DATE (@DataNasci, '%d/%m/%Y'), @Email, @Senha, @Telefone, @Sexo, @IdPlano)";
+            string sql = "INSERT INTO tbPaciente (CRM, Nome, Telefone, Email, Senha, IdEspecialidade) " +
+                                         "VALUES(@CRM, @Nome, @Telefone, @Email, @Senha, @IdEspecialidade)";
             MySqlCommand command = new MySqlCommand(sql, connection);
-            command.Parameters.AddWithValue("@Carteirinha", cadmec.Carteirinha);
-            command.Parameters.AddWithValue("@Cpf", cadmec.Cpf);
-            command.Parameters.AddWithValue("@Nome", cadmec.Nome);
-            command.Parameters.AddWithValue("@DataNasci", cadmec.DataNasci);
+            command.Parameters.AddWithValue("@Carteirinha", cadmec.CRM);
+            command.Parameters.AddWithValue("@Cpf", cadmec.Nome);
+            command.Parameters.AddWithValue("@Telefone", cadmec.Telefone);
             command.Parameters.AddWithValue("@Email", cadmec.Email);
             command.Parameters.AddWithValue("@Senha", cadmec.Senha);
-            command.Parameters.AddWithValue("@Sexo", cadmec.Sexo);
-            command.Parameters.AddWithValue("@Telefone", cadmec.Telefone);
-            command.Parameters.AddWithValue("@IdPlano", cadmec.IdPlano);
+            command.Parameters.AddWithValue("@IdPlano", cadmec.IdEspecialidade);
             command.ExecuteNonQuery();
 
             return RedirectToAction("Sucesso");
         }
     }
 }
+
