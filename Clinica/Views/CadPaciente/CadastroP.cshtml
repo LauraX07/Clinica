@@ -5,7 +5,7 @@
 }
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,15 +13,41 @@
 </head>
 <body>
     <img src="~/img/dente4bg.jpg" class="imgbg" />
-    <img src="~/img/seta.png" id="seta" class="voltar" />
-    <button class="voltar">Login</button>
-    <div class="containerP">
+    <div id="LoginP" class="LoginP" >
+    <form asp-action="Cadastrar" asp-controller="CadPaciente" method="post">
+        <h2>Realize seu Login</h2>
+            <div class="form-group">
+                <select id="inputO" class="form-control">
+                        <option selected disabled> Selecionar tipo de acesso...</option>
+                        <option onclick="" selected>Paciente</option>
+                    <option>Médico</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="inputCPF">CPF</label>
+                <input asp-for="Cpf" class="form-control" id="inputCPF">
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="inputSenha">Senha</label>
+                <input asp-for="Senha" type="password" class="form-control" id="inputSenha">
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btnLog">Acessar</button>
+            <h3 class="btntroca">Não tem conta ainda? Cadastre-se</h3>
+        </form>
+         </div>
+
+
+    <div id="containerP" class="containerP" style="display: none">
         <h2>Realize seu Cadastro</h2>
-    <form asp-action="Cadastrar" method="post" novalidate>
+        <form asp-action="Cadastrar" asp-controller="CadPaciente" method="post">
         <div class="cadP">
             <div class="form-group">
                 <select id="inputO" class="form-control">
-                    <option>Selecionar tipo de acesso...</option>
+                        <option selected disabled> Selecionar tipo de acesso...</option>
                         <option onclick="" selected>Paciente</option>
                     <option>Médico</option>
                 </select>
@@ -64,7 +90,7 @@
 
             <div class="form-group">
             <select asp-for="Sexo" id="inputOpSex" class="form-control">
-                 <option value="">Sexo:</option>
+                 <option value="" disabled selected>Sexo:</option>
                  <option value="F">Feminino</option>
                  <option value="M">Masculino</option>
                 </select>
@@ -79,7 +105,7 @@
 
             <div class="form-group">
             <select asp-for="IdPlano"  id="inputPlano" class="form-control">
-                 <option value="" >Plano:</option>
+                 <option value="" disabled selected>Plano:</option>
                  <option value="1">Sorria+ Essencial</option>
                  <option value="2">Sorria+ Plus</option>
                  <option value="3">Sorria+ Premium</option>
@@ -87,9 +113,10 @@
                 <span asp-validation-for="IdPlano" class="text-danger"></span>
             </div>
             </div>
-        </div>
+                <button type="submit" class="btnCad">Cadastrar</button>
+                <h3 class="btntroca">Já tem conta? Faça Login</h3>
+            </div>
     </form>
-        <button type="submit" class="btn"></button>
 </div>
 
 <script src="~/js/Index.js"></script>

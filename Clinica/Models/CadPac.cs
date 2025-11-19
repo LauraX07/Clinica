@@ -28,16 +28,17 @@ namespace Clinica.Models
         [DataType(DataType.Password)]
         public string? Senha { get; set; }
 
-        public char Sexo { get; set; }
+        [Required(ErrorMessage = "O sexo é obrigatório")]
+        public string? Sexo { get; set; }
 
         [Required(ErrorMessage = "O telefone é obrigatório.")]
         [Phone(ErrorMessage = "Informe um número de telefone válido.")]
         [RegularExpression(@"^\d{10,11}$", ErrorMessage = "O telefone deve conter apenas números")]
         public string? Telefone { get; set; }
 
+        [Required(ErrorMessage = "O Plano é obrigatório.")]
         public int?  IdPlano { get; set; }
 
-        [Required(ErrorMessage = "O Plano é obrigatório.")]
         public Plano? PlanoPac { get; set; }
 
 

@@ -46,21 +46,63 @@ body {
     object-fit: cover;
 }
 
+.LoginP, .containerP {
+    transition: opacity 0.4s ease-in-out;
+}
+
+
 .containerP {
     background: linear-gradient(135deg, #4ec68f, #357c8d);
-    padding: 3% 4%;
+    padding: 2% 3%;
     border-radius: 4%;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     width: 30%;
-    margin-left: 45%;
+    margin-left: 40%;
    
 }
 
-.form-group {
+
+.LoginP {
+    background-color: #357c8d;
+    width: 40%;
+    height: 60%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  
+}
+
+
+.LoginP input, select {
+    width: 130%;
+    display: block;
+    height: 23px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.LoginP h2{
+    font-size: 23px;
+}
+
+.LoginP .form-group input,
+.LoginP .form-group select  {
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.containerP .form-group {
     margin-bottom: 3%;
     display: flex;
     flex-direction: column;
 }
+
 
 h2 {
     font-size: 18px;
@@ -78,7 +120,7 @@ label {
     font-size: 12px;
 }
 
-input,
+.containerP input,
 select {
     width: 100%;
     height: 23px;
@@ -96,7 +138,9 @@ select, option {
 
 
 .linha {
+    margin-bottom: 10px;
     flex-direction: row;
+
 }
 
     .linha #inputSenha {
@@ -118,6 +162,7 @@ select, option {
         position: sticky;
         width: 55%;
         flex-direction: row;
+        margin-top: 5px;
     }
 
     .linha #inputPlano {
@@ -127,70 +172,86 @@ select, option {
         flex-direction: row;
     }
 
-input:focus,
-select:focus {
-    border-color: #0077b6;
-    box-shadow: 0 0 5px rgba(0, 119, 182, 0.3);
-    outline: none;
+#inputTel, label[for="inputTel"]{
+    margin-top: 3px;
 }
-
-/*
 
 .field-validation-error {
     color: red;
-    font-size: 10px;
-
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: -16px;
+    display: block;
 }
 
 #inputPlano + .field-validation-error {
     margin-left: 60%;
+    margin-top: 1%;
+}
+
+#inputPlano:has(+ .field-validation-error) {
+    transform: translateY(4px);
+}
+
+#inputOpSex + .field-validation-error{
+    margin-left: 60%;
+    margin-top: 1%;
+
+}
+
+#inputOpSex:has(+ .field-validation-error) {
+    transform: translateY(4px);
+}
+
+#inputEmail, #inputO {
+    margin-bottom: -4px;
 }
 
 
-.radio-group,
-.select-group {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1px;
-}
-
-
-.btn{
+.btnCad{
     height: 5vh;
     background-color: #0096c7;
     color: #fff;
     border: none;
     width: 100%;
-    padding: 12px;
+    padding: 4px;
     border-radius: 8px;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
-    cursor: pointer;    
+    cursor: pointer;
+    margin-top: 10px;
 }
 
-    .btn:hover {
+    .btnCad:hover {
         background-color: #0077b6;
     }
 
-.voltar {
-    
-    top: 10px;
-    left: 30px;
+.btnLog {
+    height: 5vh;
+    background-color: #0096c7;
+    color: #fff;
     border: none;
-    background: none;
-    color: #3b3e3f;
-    font-weight: bolder;
-    font-size: 1.8rem;
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 600;
     cursor: pointer;
+    margin-top: 10px;
 }
 
-button #seta {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    .btnLog:hover {
+        background-color: #0077b6;
+    }
+
+.btntroca{
+    font-size: 13px;
+    margin-top: 4px;
     cursor: pointer;
-    width: -20%; 
-    height: auto; 
-    object-fit: cover; 
-    image-rendering: auto;
-}*/
+    color: white;
+    text-decoration: underline 1.3px;
+}
+
+    .btntroca:hover {
+        color: yellow;
+    }

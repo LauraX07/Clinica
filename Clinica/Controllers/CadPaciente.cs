@@ -22,7 +22,6 @@ namespace Clinica.Controllers
        [HttpPost]
         public IActionResult Cadastrar(CadPac cadpac)
         {
-
             if (!ModelState.IsValid)
             {
                 return View ("CadastroP", cadpac);
@@ -33,7 +32,7 @@ namespace Clinica.Controllers
             connection.Open();
 
             string sql = "INSERT INTO tbPaciente (Carteirinha, Cpf, Nome, DataNasci, Email, Senha, Telefone, Sexo, IdPlano) " +
-                                         "VALUES(@Carteirinha, @Cpf, @Nome, STR_TO_DATE (@DataNasci, '%d/%m/%Y'), @Email, @Senha, @Telefone, @Sexo, @IdPlano)";
+                                         "VALUES(@Carteirinha, @Cpf, @Nome,@DataNasci, @Email, @Senha, @Telefone, @Sexo, @IdPlano)";
             MySqlCommand command = new MySqlCommand(sql, connection);
             command.Parameters.AddWithValue("@Carteirinha", cadpac.Carteirinha);
             command.Parameters.AddWithValue("@Cpf", cadpac.Cpf);
@@ -46,7 +45,7 @@ namespace Clinica.Controllers
             command.Parameters.AddWithValue("@IdPlano", cadpac.IdPlano);
             command.ExecuteNonQuery();
 
-            return RedirectToAction("");
+            return RedirectToAction("Sucesso");
         }
     }
 }
