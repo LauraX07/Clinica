@@ -38,7 +38,6 @@ namespace Clinica.Models
 
         [Required(ErrorMessage = "O Plano é obrigatório.")]
         public int?  IdPlano { get; set; }
-
         public Plano? PlanoPac { get; set; }
 
 

@@ -19,10 +19,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Agenda\Agendar.cshtml" />
     <Content Remove="wwwroot\js\site.js" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
     <PackageReference Include="MySql.Data" Version="9.4.0" />
   </ItemGroup>
 

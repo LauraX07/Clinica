@@ -9,21 +9,21 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="~/css/Index.css" />
+    <link rel="stylesheet" href="~/css/Paciente.css" />
 </head>
 <body>
     <img src="~/img/dente4bg.jpg" class="imgbg" />
-    <div id="LoginP" class="LoginP" >
-    <form asp-action="Cadastrar" asp-controller="CadPaciente" method="post">
+   
+    <div id="LoginP" class="LoginP active" >
+    <form asp-action="Login" asp-controller="CadPaciente" method="post">
         <h2>Realize seu Login</h2>
             <div class="form-group">
                 <select id="inputO" class="form-control">
                         <option selected disabled> Selecionar tipo de acesso...</option>
-                        <option onclick="" selected>Paciente</option>
-                    <option>Médico</option>
+                    <option selected>Paciente</option>
+                    <option value="/CadMedico/CadastroM">Médico</option>
                 </select>
             </div>
-
             <div class="form-group">
                 <label for="inputCPF">CPF</label>
                 <input asp-for="Cpf" class="form-control" id="inputCPF">
@@ -36,20 +36,20 @@
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
             <button type="submit" class="btnLog">Acessar</button>
-            <h3 class="btntroca">Não tem conta ainda? Cadastre-se</h3>
         </form>
+        <h3 class="btntroca">Não tem conta ainda? Cadastre-se</h3>
          </div>
 
 
-    <div id="containerP" class="containerP" style="display: none">
+    <div id="containerP" class="containerP" style="display:none">
         <h2>Realize seu Cadastro</h2>
         <form asp-action="Cadastrar" asp-controller="CadPaciente" method="post">
         <div class="cadP">
             <div class="form-group">
                 <select id="inputO" class="form-control">
                         <option selected disabled> Selecionar tipo de acesso...</option>
-                        <option onclick="" selected>Paciente</option>
-                    <option>Médico</option>
+                        <option selected>Paciente</option>
+                        <option value="/CadMedico/CadastroM">Médico</option>
                 </select>
             </div>
             <div class="form-group">
@@ -114,12 +114,12 @@
             </div>
             </div>
                 <button type="submit" class="btnCad">Cadastrar</button>
-                <h3 class="btntroca">Já tem conta? Faça Login</h3>
             </div>
-    </form>
+        </form>
+        <h3 class="btntroca">Já tem conta? Faça Login</h3>
 </div>
 
-<script src="~/js/Index.js"></script>
+<script src="~/js/Paciente.js"></script>
     @section Scripts {
         <partial name="_ValidationScriptsPartial" />
     }

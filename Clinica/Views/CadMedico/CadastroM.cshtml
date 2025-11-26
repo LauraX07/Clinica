@@ -1,21 +1,48 @@
 ﻿@model Clinica.Models.CadMec
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Clinica.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Medico.css"/>
 </head>
 <body>
-    <form asp-action="Cadastrar">
-        <div class="cadM">
+<img src="~/img/dente4bg.jpg" class="imgbg" />
+
+        <div class="LoginM">
+        <form asp-action="Login">
+            <h2>Realize seu Login</h2>
             <div class="form-group">
-                <select id="inputOpcao" class="form-control">
-                    <option >Selecionar tipo de acesso...</option>
-                    <option>Paciente</option>
+                <select id="inputO" class="form-control">
+                    <option disabled>Selecionar tipo de acesso...</option>
+                    <option value="/CadPaciente/CadastroP">Paciente</option>
+                    <option selected>Médico</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="inputCRM">CRM</label>
+                <input type="text" class="form-control" id="inputCRM">
+                <span asp-validation-for="CRM" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="inputSenha">Senha</label>
+                <input type="password" class="form-control" id="inputSenha">
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btnLog">Cadastrar</button>
+        <h3 class="btntroca">Não tem conta? Cadastre-se</h3>
+    </form>
+       </div>
+
+
+        <div class="containerM" style="display:none">
+         <form asp-action="Cadastrar">
+            <h2>Realize seu Cadastro</h2>
+            <div class="form-group">
+                <select id="inputO" class="form-control">
+                    <option>Selecionar tipo de acesso...</option>
+                    <option value="/CadPaciente/CadastroP">Paciente</option>
                     <option selected>Médico</option>
                 </select>
             </div>
@@ -30,22 +57,32 @@
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label for="inputEspecialidade">Especialidade</label>
+                <input type="text" class="form-control" id="inputEspecialidade">
+                <span asp-validation-for="Especialidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label for="inputEmail">Email</label>
                 <input type="email" class="form-control" id="inputEmail">
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
-                <div class="form-group col-md-8">
+            <div class="form-group">
+                <label for="inputTel">Telefone</label>
+                <input type="tel" class="form-control" id="inputTel">
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+                <div class="form-group">
                     <label for="inputSenha">Senha</label>
                     <input type="password" class="form-control" id="inputSenha">
                     <span asp-validation-for="Senha" class="text-danger"></span>
-                </div>
-            <div class="form-group">
-                <label for="inputTel">Telefone</label>
-                <input type="tel" class="form-control" id="inputTel" placeholder="Telefone">
-                <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
+            <button type="submit" class="btnCad">Cadastrar</button>
+            <h3 class="btntroca">Já tem conta? Faça Login</h3>
+        </form>
         </div>
-        <button type="submit" class="btn">Cadastrar</button>
-    </form>
+    <script src="~/js/Medico.js"></script>
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
 </body>
 </html>

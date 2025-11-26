@@ -19,11 +19,13 @@ namespace Clinica.Controllers
             return View();
         }
 
+
        [HttpPost]
         public IActionResult Cadastrar(CadPac cadpac)
         {
             if (!ModelState.IsValid)
             {
+                ViewBag.ShowCadastro = true;
                 return View ("CadastroP", cadpac);
             }
 
@@ -45,7 +47,7 @@ namespace Clinica.Controllers
             command.Parameters.AddWithValue("@IdPlano", cadpac.IdPlano);
             command.ExecuteNonQuery();
 
-            return RedirectToAction("Sucesso");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

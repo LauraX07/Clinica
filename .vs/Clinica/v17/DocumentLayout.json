@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\controllers\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\controllers\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\views\\cadpaciente\\cadastrop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\cadpaciente\\cadastrop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\views\\agenda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\agenda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\controllers\\cadpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\controllers\\cadpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\models\\cadpac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\models\\cadpac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\models\\classagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\models\\classagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CadastroP.cshtml",
-              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Views\\CadPaciente\\CadastroP.cshtml",
-              "RelativeDocumentMoniker": "Clinica\\Views\\CadPaciente\\CadastroP.cshtml",
-              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Views\\CadPaciente\\CadastroP.cshtml",
-              "RelativeToolTip": "Clinica\\Views\\CadPaciente\\CadastroP.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAA3AAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Views\\Agenda\\Index.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Agenda\\Index.cshtml",
+              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Views\\Agenda\\Index.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Agenda\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-09T14:45:27.392Z",
+              "WhenOpened": "2025-11-25T21:56:29.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.css",
-              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\wwwroot\\css\\Index.css",
-              "RelativeDocumentMoniker": "Clinica\\wwwroot\\css\\Index.css",
-              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\wwwroot\\css\\Index.css",
-              "RelativeToolTip": "Clinica\\wwwroot\\css\\Index.css",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAF8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-09T14:45:33.99Z",
+              "Title": "Agenda.cs",
+              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Controllers\\Agenda.cs",
+              "RelativeDocumentMoniker": "Clinica\\Controllers\\Agenda.cs",
+              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Controllers\\Agenda.cs",
+              "RelativeToolTip": "Clinica\\Controllers\\Agenda.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:35:52.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.js",
-              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\wwwroot\\js\\Index.js",
-              "RelativeDocumentMoniker": "Clinica\\wwwroot\\js\\Index.js",
-              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\wwwroot\\js\\Index.js",
-              "RelativeToolTip": "Clinica\\wwwroot\\js\\Index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-17T23:11:49.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CadPac.cs",
-              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Models\\CadPac.cs",
-              "RelativeDocumentMoniker": "Clinica\\Models\\CadPac.cs",
-              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Models\\CadPac.cs",
-              "RelativeToolTip": "Clinica\\Models\\CadPac.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwCYAAAAhAAAAAAAAAA==",
+              "Title": "ClassAgenda.cs",
+              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Models\\ClassAgenda.cs",
+              "RelativeDocumentMoniker": "Clinica\\Models\\ClassAgenda.cs",
+              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Models\\ClassAgenda.cs",
+              "RelativeToolTip": "Clinica\\Models\\ClassAgenda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T20:52:20.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CadPaciente.cs",
-              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Controllers\\CadPaciente.cs",
-              "RelativeDocumentMoniker": "Clinica\\Controllers\\CadPaciente.cs",
-              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Controllers\\CadPaciente.cs",
-              "RelativeToolTip": "Clinica\\Controllers\\CadPaciente.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAC8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T17:22:03.829Z",
+              "WhenOpened": "2025-11-26T00:36:08.634Z",
               "EditorCaption": ""
             }
           ]

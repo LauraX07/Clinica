@@ -5,6 +5,7 @@ namespace Clinica.Models
     public class CadMec
     {
         [Key]
+        [Required(ErrorMessage = "O CRM é obrigatório.")]
         [RegularExpression(@"^\d{10,11}$", ErrorMessage = "O CRM deve conter apenas números")]
         public int CRM { get; set; }
 
@@ -23,7 +24,7 @@ namespace Clinica.Models
         [RegularExpression(@"^\d{10,11}$", ErrorMessage = "O telefone deve conter apenas números")]
         public string? Telefone { get; set; }
 
-        public int IdEspecialidade { get; set; }
-        public required Especialidade EspecialidadeM {  get; set; }
+        [Required(ErrorMessage = "A especialidade é obrigatória.")]
+        public string? Especialidade {  get; set; }
     }
 }

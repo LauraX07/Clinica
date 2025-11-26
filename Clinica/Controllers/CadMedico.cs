@@ -32,15 +32,15 @@ namespace Clinica.Controllers
             using var connection = new MySqlConnection(connectionString);
             connection.Open();
 
-            string sql = "INSERT INTO tbPaciente (CRM, Nome, Telefone, Email, Senha, IdEspecialidade) " +
+            string sql = "INSERT INTO tbMedico (CRM, Nome, Telefone, Email, Senha, IdEspecialidade) " +
                                          "VALUES(@CRM, @Nome, @Telefone, @Email, @Senha, @IdEspecialidade)";
             MySqlCommand command = new MySqlCommand(sql, connection);
-            command.Parameters.AddWithValue("@Carteirinha", cadmec.CRM);
-            command.Parameters.AddWithValue("@Cpf", cadmec.Nome);
+            command.Parameters.AddWithValue("@CRM", cadmec.CRM);
+            command.Parameters.AddWithValue("@Nome", cadmec.Nome);
             command.Parameters.AddWithValue("@Telefone", cadmec.Telefone);
             command.Parameters.AddWithValue("@Email", cadmec.Email);
             command.Parameters.AddWithValue("@Senha", cadmec.Senha);
-            command.Parameters.AddWithValue("@IdPlano", cadmec.IdEspecialidade);
+            command.Parameters.AddWithValue("@Especialidade", cadmec.Especialidade);
             command.ExecuteNonQuery();
 
             return RedirectToAction("Sucesso");
