@@ -13,42 +13,15 @@
 </head>
 <body>
     <img src="~/img/dente4bg.jpg" class="imgbg" />
-   
-    <div id="LoginP" class="LoginP active" >
-    <form asp-action="Login" asp-controller="CadPaciente" method="post">
-        <h2>Realize seu Login</h2>
-            <div class="form-group">
-                <select id="inputO" class="form-control">
-                        <option selected disabled> Selecionar tipo de acesso...</option>
-                    <option selected>Paciente</option>
-                    <option value="/CadMedico/CadastroM">Médico</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="inputCPF">CPF</label>
-                <input asp-for="Cpf" class="form-control" id="inputCPF">
-                <span asp-validation-for="Cpf" class="text-danger"></span>
-            </div>
 
-            <div class="form-group">
-                <label for="inputSenha">Senha</label>
-                <input asp-for="Senha" type="password" class="form-control" id="inputSenha">
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <button type="submit" class="btnLog">Acessar</button>
-        </form>
-        <h3 class="btntroca">Não tem conta ainda? Cadastre-se</h3>
-         </div>
-
-
-    <div id="containerP" class="containerP" style="display:none">
+    <div id="containerP" class="containerP">
         <h2>Realize seu Cadastro</h2>
-        <form asp-action="Cadastrar" asp-controller="CadPaciente" method="post">
+        <form asp-action="CadastroP" asp-controller="CadPaciente" method="post">
         <div class="cadP">
             <div class="form-group">
                 <select id="inputO" class="form-control">
                         <option selected disabled> Selecionar tipo de acesso...</option>
-                        <option selected>Paciente</option>
+                        <option value="Paciente" selected>Paciente</option>
                         <option value="/CadMedico/CadastroM">Médico</option>
                 </select>
             </div>
@@ -116,10 +89,12 @@
                 <button type="submit" class="btnCad">Cadastrar</button>
             </div>
         </form>
-        <h3 class="btntroca">Já tem conta? Faça Login</h3>
+        <a asp-action="LoginP" asp-controller="CadPaciente" class="btntroca">
+            Já tem conta? Faça Login
+        </a>
 </div>
 
-<script src="~/js/Paciente.js"></script>
+    <script src="~/js/Paciente.js"></script>
     @section Scripts {
         <partial name="_ValidationScriptsPartial" />
     }

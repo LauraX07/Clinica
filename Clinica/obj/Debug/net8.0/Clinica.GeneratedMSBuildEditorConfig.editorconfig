@@ -36,8 +36,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkTWVkaWNvXENhZGFzdHJvTS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/layla/OneDrive/Área de Trabalho/ProjetoClinica/Clinica/Views/CadMedico/LoginM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkTWVkaWNvXExvZ2luTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/layla/OneDrive/Área de Trabalho/ProjetoClinica/Clinica/Views/CadPaciente/CadastroP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUGFjaWVudGVcQ2FkYXN0cm9QLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/layla/OneDrive/Área de Trabalho/ProjetoClinica/Clinica/Views/CadPaciente/LoginP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUGFjaWVudGVcTG9naW5QLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/layla/OneDrive/Área de Trabalho/ProjetoClinica/Clinica/Views/Shared/Error.cshtml]

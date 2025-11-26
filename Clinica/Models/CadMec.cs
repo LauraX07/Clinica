@@ -6,7 +6,6 @@ namespace Clinica.Models
     {
         [Key]
         [Required(ErrorMessage = "O CRM é obrigatório.")]
-        [RegularExpression(@"^\d{10,11}$", ErrorMessage = "O CRM deve conter apenas números")]
         public int CRM { get; set; }
 
         [Required(ErrorMessage = "O nome é obrigatório.")]

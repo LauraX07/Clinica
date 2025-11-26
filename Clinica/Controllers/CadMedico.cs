@@ -20,20 +20,20 @@ namespace Clinica.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastrar(CadMec cadmec)
+        public IActionResult CadastroM(CadMec cadmec)
         {
 
             if (!ModelState.IsValid)
             {
-                return View("CadastroP", cadmec);
+                return View("CadastroM", cadmec);
             }
 
             string? connectionString = _configuration.GetConnectionString("DefaultConnection");
             using var connection = new MySqlConnection(connectionString);
             connection.Open();
 
-            string sql = "INSERT INTO tbMedico (CRM, Nome, Telefone, Email, Senha, IdEspecialidade) " +
-                                         "VALUES(@CRM, @Nome, @Telefone, @Email, @Senha, @IdEspecialidade)";
+            string sql = "INSERT INTO tbMedico (CRM, Nome, Telefone, Email, Senha, Especialidade) " +
+                                         "VALUES(@CRM, @Nome, @Telefone, @Email, @Senha, @Especialidade)";
             MySqlCommand command = new MySqlCommand(sql, connection);
             command.Parameters.AddWithValue("@CRM", cadmec.CRM);
             command.Parameters.AddWithValue("@Nome", cadmec.Nome);

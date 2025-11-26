@@ -1,10 +1,7 @@
-wwwroot\css\Medico.css
-wwwroot\css\Paciente.css
 wwwroot\favicon.ico
-wwwroot\img\dente1.png
-wwwroot\img\dente4bg.jpg
-wwwroot\js\Medico.js
 wwwroot\js\Paciente.js
+wwwroot\img\dente1.png
+wwwroot\css\Paciente.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -62,3 +59,6 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\img\dente4bg.jpg
+wwwroot\css\Medico.css
+wwwroot\js\Medico.js

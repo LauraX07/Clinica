@@ -19,7 +19,7 @@ namespace Clinica.Models
 
         [Required(ErrorMessage = "A data de nascimento é obrigatória")]
         [DataType(DataType.Date)]
-        public DateOnly? DataNasci { get; set; }
+        public DateTime? DataNasci { get; set; }
 
         [EmailAddress(ErrorMessage = "Informe um e-mail válido.")]
         public string?  Email { get; set; }

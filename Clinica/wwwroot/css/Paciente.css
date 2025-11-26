@@ -46,10 +46,6 @@ body {
     object-fit: cover;
 }
 
-.LoginP, .containerP {
-    transition: opacity 0.8s ease-in-out;
-    opacity: 1;
-}
 
 .containerP {
     background: linear-gradient(135deg, #4ec68f, #357c8d);
@@ -57,12 +53,9 @@ body {
     border-radius: 4%;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     width: 30%;
-    opacity: 0;
-
 }
 
 .LoginP {
-    opacity: 1;
     width: 35%;
     height: 55%;
     padding: 75px;

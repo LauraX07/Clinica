@@ -143,4 +143,5 @@ call insertTbUni_Plano ('Sorria+ Tatuapé', 'Sorria+ Premium');
 call insertTbUni_Plano ('Sorria+ Santo Amaro', 'Sorria+ Premium');
 
 select * from tbPaciente;
+select * from tbMedico;
 select * from tbUnidade_Plano;

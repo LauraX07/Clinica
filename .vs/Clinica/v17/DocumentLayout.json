@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\controllers\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\controllers\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\views\\agenda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\agenda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|c:\\users\\layla\\onedrive\\\u00E1rea de trabalho\\projetoclinica\\clinica\\models\\classagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB06FB63-77E7-4EB3-84C1-46270182A2DC}|Clinica\\Clinica.csproj|solutionrelative:clinica\\models\\classagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Views\\Agenda\\Index.cshtml",
-              "RelativeDocumentMoniker": "Clinica\\Views\\Agenda\\Index.cshtml",
-              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Views\\Agenda\\Index.cshtml",
-              "RelativeToolTip": "Clinica\\Views\\Agenda\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T21:56:29.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Agenda.cs",
-              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Controllers\\Agenda.cs",
-              "RelativeDocumentMoniker": "Clinica\\Controllers\\Agenda.cs",
-              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Controllers\\Agenda.cs",
-              "RelativeToolTip": "Clinica\\Controllers\\Agenda.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T21:35:52.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClassAgenda.cs",
-              "DocumentMoniker": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Models\\ClassAgenda.cs",
-              "RelativeDocumentMoniker": "Clinica\\Models\\ClassAgenda.cs",
-              "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Models\\ClassAgenda.cs",
-              "RelativeToolTip": "Clinica\\Models\\ClassAgenda.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T00:36:08.634Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -10,71 +10,45 @@
 <body>
 <img src="~/img/dente4bg.jpg" class="imgbg" />
 
-        <div class="LoginM">
-        <form asp-action="Login">
-            <h2>Realize seu Login</h2>
-            <div class="form-group">
-                <select id="inputO" class="form-control">
-                    <option disabled>Selecionar tipo de acesso...</option>
-                    <option value="/CadPaciente/CadastroP">Paciente</option>
-                    <option selected>Médico</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="inputCRM">CRM</label>
-                <input type="text" class="form-control" id="inputCRM">
-                <span asp-validation-for="CRM" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label for="inputSenha">Senha</label>
-                <input type="password" class="form-control" id="inputSenha">
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <button type="submit" class="btnLog">Cadastrar</button>
-        <h3 class="btntroca">Não tem conta? Cadastre-se</h3>
-    </form>
-       </div>
-
-
-        <div class="containerM" style="display:none">
-         <form asp-action="Cadastrar">
+        <div class="containerM">
+        <form asp-action="CadastroM" asp-controller="CadMedico" method="post">
             <h2>Realize seu Cadastro</h2>
             <div class="form-group">
                 <select id="inputO" class="form-control">
-                    <option>Selecionar tipo de acesso...</option>
+                    <option selected disabled>Selecionar tipo de acesso...</option>
                     <option value="/CadPaciente/CadastroP">Paciente</option>
-                    <option selected>Médico</option>
+                    <option value="Medico" selected>Médico</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="inputCRM">CRM</label>
-                <input type="text" class="form-control" id="inputCRM">
+                <input asp-for="CRM" class="form-control" id="inputCRM">
                 <span asp-validation-for="CRM" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="inputNome">Nome</label>
-                <input type="text" class="form-control" id="inputCPF">
+                <input asp-for="Nome" class="form-control" id="inputCPF">
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="inputEspecialidade">Especialidade</label>
-                <input type="text" class="form-control" id="inputEspecialidade">
+                <input asp-for="Especialidade" class="form-control" id="inputEspecialidade">
                 <span asp-validation-for="Especialidade" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail">
+                <input asp-for="Email" class="form-control" id="inputEmail">
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="inputTel">Telefone</label>
-                <input type="tel" class="form-control" id="inputTel">
+                <input asp-for="Telefone" class="form-control" id="inputTel">
                 <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
-                <div class="form-group">
-                    <label for="inputSenha">Senha</label>
-                    <input type="password" class="form-control" id="inputSenha">
-                    <span asp-validation-for="Senha" class="text-danger"></span>
+            <div class="form-group">
+                <label for="inputSenha">Senha</label>
+                <input asp-for="Senha" class="form-control" id="inputSenha">
+                <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
             <button type="submit" class="btnCad">Cadastrar</button>
             <h3 class="btntroca">Já tem conta? Faça Login</h3>

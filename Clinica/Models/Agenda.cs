@@ -2,7 +2,7 @@
 
 namespace Clinica.Models
 {
-    public class ClassAgenda
+    public class Agenda
     {
         [Key]
         public int IdAgenda { get; set; }

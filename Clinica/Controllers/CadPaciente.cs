@@ -21,11 +21,10 @@ namespace Clinica.Controllers
 
 
        [HttpPost]
-        public IActionResult Cadastrar(CadPac cadpac)
+        public IActionResult CadastroP(CadPac cadpac)
         {
             if (!ModelState.IsValid)
             {
-                ViewBag.ShowCadastro = true;
                 return View ("CadastroP", cadpac);
             }
 
