@@ -1,27 +1,27 @@
 ﻿@model Clinica.Models.CadPac
 
 @{
-    ViewData["Title"] = "Cadastrar";
+    ViewData["Title"] = "Login";
 }
 
-<!DOCTYPE html>
-<html lang="pt-br">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="~/css/Paciente.css" />
+    <title>Login</title>
 </head>
 <body>
     <img src="~/img/dente4bg.jpg" class="imgbg" />
 
     <div id="LoginP" class="LoginP">
-        <form asp-action="LoginP" asp-controller="CadPaciente" method="get">
+        <form asp-action="LoginP" asp-controller="CadPaciente" method="post">
             <h2>Realize seu Login</h2>
             <div class="form-group">
                 <select id="inputO" class="form-control">
                     <option selected disabled> Selecionar tipo de acesso...</option>
                     <option selected>Paciente</option>
-                    <option value="/CadMedico/CadastroM">Médico</option>
+                    <option value="/CadMedico/LoginM">Médico</option>
                 </select>
             </div>
             <div class="form-group">
@@ -35,16 +35,20 @@
                 <input asp-for="Senha" type="password" class="form-control" id="inputSenha">
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
-            <button type="submit" class="btnLog">Acessar</button>
-            
-            <a asp-action="CadPaciente" asp-controller="CadPaciente" class="btntroca">
+
+            @if (ViewBag.Erro != null)
+            {
+                <div style="color:red" class="alert alert-danger">@ViewBag.Erro</div>
+            }
+
+            <button type="submit" class="btnCad">Acessar</button>
+     </form>
+            <a asp-action="CadastroP" asp-controller="CadPaciente" class="btntroca">
                 Não tem conta ainda? Cadastre-se
             </a>
-</form>
 </div>
     <script src="~/js/Paciente.js"></script>
     @section Scripts {
         <partial name="_ValidationScriptsPartial" />
     }
 </body>
-</html>

@@ -18,6 +18,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=CadPaciente}/{action=CadastroP}/{id?}");
+    pattern: "{controller=CadPaciente}/{action=LoginP}/{id?}");
 
 app.Run();

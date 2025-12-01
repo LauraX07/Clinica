@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Clinica.Models;
+﻿using Clinica.Models;
+using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace Clinica.Controllers
 {
@@ -14,13 +15,52 @@ namespace Clinica.Controllers
         }
 
         [HttpGet]
+        public IActionResult LoginP()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult LoginP(CadPac cadpac)
+        {
+
+            string? connectionString = _configuration.GetConnectionString("DefaultConnection");
+            using var connection = new MySqlConnection(connectionString);
+            connection.Open();
+           
+
+            string sql = "SELECT * FROM tbPaciente WHERE Cpf = @Cpf AND Senha = @Senha";
+
+            MySqlCommand command = new MySqlCommand(sql, connection);
+            command.Parameters.AddWithValue("@Cpf", cadpac.Cpf);
+            command.Parameters.AddWithValue("@Senha", cadpac.Senha);
+
+            using var reader = command.ExecuteReader();
+
+            // Usuário encontrado
+            if (reader.Read())
+            {
+                string nome = reader["Nome"]?.ToString() ?? "";
+                string primeiroNome = nome.Split(' ')[0];
+
+                TempData["PrimeiroNome"] = primeiroNome;
+
+                return RedirectToAction("Index", "Home");
+            }
+
+            // Usuário inválido
+            ViewBag.Erro = "CPF ou senha incorretos.";
+            return View(cadpac);
+
+        }
+                
+        [HttpGet]
         public IActionResult CadastroP()
         {
             return View();
         }
 
-
-       [HttpPost]
+        [HttpPost]
         public IActionResult CadastroP(CadPac cadpac)
         {
             if (!ModelState.IsValid)
@@ -41,8 +81,8 @@ namespace Clinica.Controllers
             command.Parameters.AddWithValue("@DataNasci", cadpac.DataNasci);
             command.Parameters.AddWithValue("@Email", cadpac.Email);
             command.Parameters.AddWithValue("@Senha", cadpac.Senha);
-            command.Parameters.AddWithValue("@Sexo", cadpac.Sexo);
             command.Parameters.AddWithValue("@Telefone", cadpac.Telefone);
+            command.Parameters.AddWithValue("@Sexo", cadpac.Sexo);
             command.Parameters.AddWithValue("@IdPlano", cadpac.IdPlano);
             command.ExecuteNonQuery();
 

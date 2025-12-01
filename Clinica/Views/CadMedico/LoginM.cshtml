@@ -1,11 +1,16 @@
 ﻿@model Clinica.Models.CadMec
 
-<!DOCTYPE html>
-<html lang="pt-br">
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="~/css/Medico.css" />
+    <title>Login</title>
 </head>
 <body>
     <img src="~/img/dente4bg.jpg" class="imgbg" />
@@ -22,16 +27,21 @@
             </div>
             <div class="form-group">
                 <label for="inputCRM">CRM</label>
-                <input asp-for="CRM" class="form-control" id="inputCRM">
-                <span asp-validation-for="CRM" class="text-danger"></span>
+                <input asp-for="Crm" class="form-control" id="inputCRM">
+                <span asp-validation-for="Crm" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="inputSenha">Senha</label>
                 <input asp-for="Senha" class="form-control" id="inputSenha">
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
+            @if (ViewBag.Erro != null)
+            {
+                <div style="color:red" class="alert alert-danger">@ViewBag.Erro</div>
+            }
             <button type="submit" class="btnLog">Cadastrar</button>
-            <a asp-action="CadPaciente" asp-controller="CadPaciente" class="btntroca">
+
+            <a asp-action="CadastroM" asp-controller="CadMedico" class="btntroca">
                 Não tem conta ainda? Cadastre-se
             </a>
         </form>
@@ -41,4 +51,3 @@
         <partial name="_ValidationScriptsPartial" />
     }
 </body>
-</html>

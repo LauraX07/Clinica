@@ -6,7 +6,7 @@ namespace Clinica.Models
     {
         [Key]
         [Required(ErrorMessage = "O CRM é obrigatório.")]
-        public int CRM { get; set; }
+        public int Crm { get; set; }
 
         [Required(ErrorMessage = "O nome é obrigatório.")]
         public string? Nome { get; set; }

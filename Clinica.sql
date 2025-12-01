@@ -45,7 +45,7 @@ Senha varchar(20) not null,
 Especialidade varchar(45)
 );
 
-create table Unidade_Medico(
+create table tbUnidade_Medico(
 IdUnidade int,
 Crm varchar(10),
 primary key (IdUnidade, Crm),
@@ -145,3 +145,7 @@ call insertTbUni_Plano ('Sorria+ Santo Amaro', 'Sorria+ Premium');
 select * from tbPaciente;
 select * from tbMedico;
 select * from tbUnidade_Plano;
+select * from tbUnidade_Medico;
+
+
+

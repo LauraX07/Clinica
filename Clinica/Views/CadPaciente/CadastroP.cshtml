@@ -4,12 +4,11 @@
     ViewData["Title"] = "Cadastrar";
 }
 
-<!DOCTYPE html>
-<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="~/css/Paciente.css" />
+    <title>Cadastro</title>
 </head>
 <body>
     <img src="~/img/dente4bg.jpg" class="imgbg" />
@@ -45,7 +44,7 @@
 
             <div class="form-group">
                 <label for="inputNasci">Data de Nascimento</label>
-                <input asp-for="DataNasci" type="date" class="form-control" id="inputNasc">
+                <input asp-for="DataNasci" type="date" class="form-control" id="inputNasci">
                 <span asp-validation-for="DataNasci" class="text-danger"></span>
             </div>
 
@@ -86,7 +85,9 @@
                 <span asp-validation-for="IdPlano" class="text-danger"></span>
             </div>
             </div>
-                <button type="submit" class="btnCad">Cadastrar</button>
+                <button type="submit" class="btnCad">
+                    <a asp-action="Index" asp-controller="Home">Cadastrar
+                    </a></button>
             </div>
         </form>
         <a asp-action="LoginP" asp-controller="CadPaciente" class="btntroca">
@@ -99,4 +100,3 @@
         <partial name="_ValidationScriptsPartial" />
     }
 </body>
-</html>

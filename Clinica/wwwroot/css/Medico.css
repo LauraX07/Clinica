@@ -151,6 +151,26 @@ select, option {
 }
 
 
+.unidades{
+    padding: 5px;
+    
+    max-height: 70px; 
+    overflow-y: auto; 
+}
+
+    .unidades div {
+        font-size: 0.9em;
+    }
+
+    .unidades div label{
+        margin-top:-13px
+    }
+
+.unidades input[type="checkbox"] {
+    height:2.3vh;
+}
+
+
 .btnCad {
     height: 5vh;
     background-color: #0096c7;

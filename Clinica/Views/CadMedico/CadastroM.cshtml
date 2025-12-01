@@ -1,4 +1,4 @@
-﻿@model Clinica.Models.CadMec
+﻿@model Clinica.Models.MedicoViewModel
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="~/css/Medico.css"/>
+    <title>Cadastro</title>
 </head>
 <body>
 <img src="~/img/dente4bg.jpg" class="imgbg" />
@@ -22,36 +23,58 @@
             </div>
             <div class="form-group">
                 <label for="inputCRM">CRM</label>
-                <input asp-for="CRM" class="form-control" id="inputCRM">
-                <span asp-validation-for="CRM" class="text-danger"></span>
+                <input asp-for="Medico.Crm" class="form-control" id="inputCRM">
+                <span asp-validation-for="Medico.Crm" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="inputNome">Nome</label>
-                <input asp-for="Nome" class="form-control" id="inputCPF">
-                <span asp-validation-for="Nome" class="text-danger"></span>
+                <input asp-for="Medico.Nome" class="form-control" id="inputCPF">
+                <span asp-validation-for="Medico.Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="inputEspecialidade">Especialidade</label>
-                <input asp-for="Especialidade" class="form-control" id="inputEspecialidade">
-                <span asp-validation-for="Especialidade" class="text-danger"></span>
+                <input asp-for="Medico.Especialidade" class="form-control" id="inputEspecialidade">
+                <span asp-validation-for="Medico.Especialidade" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="inputEmail">Email</label>
-                <input asp-for="Email" class="form-control" id="inputEmail">
-                <span asp-validation-for="Email" class="text-danger"></span>
+                <input asp-for="Medico.Email" class="form-control" id="inputEmail">
+                <span asp-validation-for="Medico.Email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="inputTel">Telefone</label>
-                <input asp-for="Telefone" class="form-control" id="inputTel">
-                <span asp-validation-for="Telefone" class="text-danger"></span>
+                <input asp-for="Medico.Telefone" class="form-control" id="inputTel">
+                <span asp-validation-for="Medico.Telefone" class="text-danger"></span>
             </div>
+
+            <label class="unidadeslbl">Unidades onde o médico atende:</label>
+            <div class="unidades">
+                @foreach (var uni in Model.Unidades)
+                {
+                    <div>
+                        <input type="checkbox" name="UnidadesSelecionadas"
+                               value="@uni.IdUnidade"
+                               @(Model.UnidadesSelecionadas.Contains(uni.IdUnidade) ? "checked" : "") />
+                        <label>@uni.NomeU</label>
+                    </div>
+                }
+            </div>
+
+
             <div class="form-group">
                 <label for="inputSenha">Senha</label>
-                <input asp-for="Senha" class="form-control" id="inputSenha">
-                <span asp-validation-for="Senha" class="text-danger"></span>
+                <input asp-for="Medico.Senha" class="form-control" id="inputSenha">
+                <span asp-validation-for="Medico.Senha" class="text-danger"></span>
             </div>
-            <button type="submit" class="btnCad">Cadastrar</button>
-            <h3 class="btntroca">Já tem conta? Faça Login</h3>
+
+            <button type="submit" class="btnCad">
+                <a asp-action="Index" asp-controller="Home">
+                    Cadastrar
+                </a>
+            </button>
+            <a asp-action="LoginM" asp-controller="CadMedico" class="btntroca">
+                Já tem conta? Faça Login
+            </a>
         </form>
         </div>
     <script src="~/js/Medico.js"></script>
