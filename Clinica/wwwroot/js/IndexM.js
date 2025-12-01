@@ -5,7 +5,7 @@ const bnt_close = document.getElementById('btn-close');
 btnPopup.addEventListener('click', () => {
     modal.style.display = "flex";
     modal.classList.add('ativa');
-  
+
 });
 
 bnt_close.addEventListener('click', () => {

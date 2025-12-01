@@ -10,5 +10,9 @@ namespace Clinica.Controllers
         {
             return View();
         }
+        public IActionResult IndexM()
+        {
+            return View();
+        }
     }
 }

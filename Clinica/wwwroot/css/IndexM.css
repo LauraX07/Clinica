@@ -3,7 +3,7 @@
 }
 
 
-.modal{
+.modal {
     position: absolute;
     width: 30%;
     height: 45%;
@@ -17,15 +17,15 @@
     flex-direction: column;
     text-align: left;
     opacity: 0;
-    transform: translateY(900px);       
+    transform: translateY(900px);
     transition: opacity 0.4s ease, transform 1s ease;
 }
 
-.modal.ativa {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
+    .modal.ativa {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
 
 .btn-close {
     width: 15%;
@@ -35,7 +35,7 @@
     transition: ease-in-out 0.5s;
 }
 
-table .lista{
+table .lista {
     display: grid;
     padding: 30px;
     gap: 4rem;
@@ -48,8 +48,8 @@ table .lista{
     padding: 30px;
 }
 
-.lista, .btn{
-    text-align:center;
+.lista, .btn {
+    text-align: center;
     justify-content: center;
     display: flex;
     margin-top: 20px;
@@ -57,12 +57,3 @@ table .lista{
     padding-right: 20px;
 }
 
-.carteirinha{
-    display: flex;
-    flex-direction: column;
-    background-color: #2d59cd;
-    padding: 1rem 1rem 2rem;
-    width: 40%;
-    color: white;
-    border-radius: 10px;
-}

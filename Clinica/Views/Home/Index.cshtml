@@ -1,5 +1,4 @@
-﻿@using Microsoft.AspNetCore.Http;
-
+﻿
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +6,21 @@
     <title>Ínicio</title>
 </head>
 <body>
-
+    
         <header>
         <nav class="barraNav">
-@if (TempData["PrimeiroNome"] != null)
-{
-    <p><strong>Olá, @TempData["PrimeiroNome"]!</strong></p>
-}
+            <h2>Olá</h2>
             <h2>Sorria+</h2>
            </nav>
         </header>
 
+        <div class="carteirinha">
+            <h3>Carteirinha Sorria+</h3>
+            <label>Nome: </label>
+            <label>Número: </label>
+            <label>Plano: </label>
+        </div>
+<div class="lista">
     <table>
        <thead>
           <tr>
@@ -30,18 +33,19 @@
        </thead>
 
         <tbody>
-            @*@foreach (var item in Model)
-            {
               <tr>
-               <td>@item.DataH</td> 
-               <td>@item.Endereco</td>
-               <td>@item.Crm</td>
-               <td>@item.Tipo</td>
+               <td>10/12/2025</td> 
+               <td>Sorria+ Osasco</td>
+               <td>Dr. Marcelo</td>
+               <td>Bucomaxilar</td>
               </tr>
-            }*@
         </tbody>
     </table>
+        <button id="btneditar" class="btn">Editar</button>
+        <button id="btneditar" class="btn">Cancelar</button>
+    </div>
     <button class="popup">Agendar consulta</button>
+    
     <div class="modal" id="modal">
         <img src="~/img/btn-close.png" class="btn-close" id="btn-close"/>
         <div class="form-group">

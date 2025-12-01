@@ -40,12 +40,8 @@ namespace Clinica.Controllers
             // Usuário encontrado
             if (reader.Read())
             {
-                string nome = reader["Nome"]?.ToString() ?? "";
-                string primeiroNome = nome.Split(' ')[0];
-
-                TempData["PrimeiroNome"] = primeiroNome;
-
                 return RedirectToAction("Index", "Home");
+
             }
 
             // Usuário inválido

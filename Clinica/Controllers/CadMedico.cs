@@ -39,7 +39,7 @@ namespace Clinica.Controllers
             // Usuário encontrado
             if (reader.Read())
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("IndexM", "Home");
             }
 
             // Usuário inválido
@@ -101,7 +101,7 @@ namespace Clinica.Controllers
             try
             {
 
-                string sql = "INSERT INTO tbMedico (Crm, Nome, Telefone, Email, Senha, Especialidade) " +
+             string sql = "INSERT INTO tbMedico (Crm, Nome, Telefone, Email, Senha, Especialidade) " +
                                          "VALUES(@Crm, @Nome, @Telefone, @Email, @Senha, @Especialidade)";
             MySqlCommand cmd = new MySqlCommand(sql, connection, transaction);
             cmd.Parameters.AddWithValue("@Crm", vm.Medico.Crm);
@@ -112,7 +112,7 @@ namespace Clinica.Controllers
             cmd.Parameters.AddWithValue("@Especialidade", vm.Medico.Especialidade);
             cmd.ExecuteNonQuery();
 
-            string sql2 = @"INSERT INTO Unidade_Medico (IdUnidade, Crm)
+            string sql2 = @"INSERT INTO tbUnidade_Medico (IdUnidade, Crm)
                 VALUES (@IdUnidade, @Crm)";
             using var cmd1 = new MySqlCommand(sql2, connection);
                 foreach (var idUni in vm.UnidadesSelecionadas.Distinct())
@@ -123,7 +123,7 @@ namespace Clinica.Controllers
                     cmd1.ExecuteNonQuery();
                 }
                 transaction.Commit();
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("IndexM", "Home");
             }
             catch (Exception ex)
             {
