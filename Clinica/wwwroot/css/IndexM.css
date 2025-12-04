@@ -1,59 +1,123 @@
-﻿body {
-    scrollba
+﻿*{
+  margin: 0;
+  padding: 0;
 }
 
+.topo {
+    width: 100%;
+    background: #A8E6CF;
+}
 
-.modal {
-    position: absolute;
-    width: 30%;
-    height: 45%;
-    font-size: 21px;
+.barraNav {
+    color: white;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    background-color: #ffffff;
-    border: 3px solid #808080;
-    border-radius: 15px;
-    flex-direction: column;
-    text-align: left;
-    opacity: 0;
-    transform: translateY(900px);
-    transition: opacity 0.4s ease, transform 1s ease;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
 
-    .modal.ativa {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
+
+    .barraNav h1 {
+        left: 50%;
+        transform: translateX(-50%);
     }
 
-.btn-close {
-    width: 15%;
-    margin-top: 15px;
-    margin-left: 80%;
+.btn-voltar {
+    padding: 6px 14px;
+    color: white;
+    text-decoration: none;
+    background: #A8E6CF;
     cursor: pointer;
-    transition: ease-in-out 0.5s;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px 15px;
+    border: 2px solid #6ec3a4;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 
-table .lista {
+
+    .btn-voltar:hover {
+        background: #94e4c4;
+        box-shadow: 0 3px 7px rgba(0,0,0,0.2);
+    }
+
+.container-cards {
+    margin-top: 5%;
     display: grid;
-    padding: 30px;
-    gap: 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.lista {
-    flex-direction: row;
+.card-consulta {
+    width: 350px;
+    background: #e0e0e0;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     display: flex;
-    gap: 20px;
-    padding: 30px;
+    justify-content: start;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center
 }
 
-.lista, .btn {
-    text-align: center;
+
+
+.info h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.info p {
+    margin: 4px 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.status {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pendente {
+    color: #ee8282;
+}
+
+.status button {
+    border-radius: 6px;
+    border: 0 solid;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.cancelar {
+    background-color: #f83e3e;
+}
+
+.editar {
+    background-color: #0feb9d;
+}
+
+.paiCarteirinha {
+    display: flex;
+    margin-top: 3%;
     justify-content: center;
-    display: flex;
-    margin-top: 20px;
-    height: 3vh;
-    padding-right: 20px;
 }
 
+.carteirinha {
+    display: flex;
+    flex-direction: column;
+    background-color: #6ec3a4;
+    padding: 1.5rem 1.5rem 2.5rem;
+    width: 25%;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 10px;
+}

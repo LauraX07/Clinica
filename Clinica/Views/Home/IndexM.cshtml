@@ -7,70 +7,67 @@
 </head>
 <body>
 
-    <header>
+    <header class="topo">
         <nav class="barraNav">
-            <h2>Olá</h2>
-            <h2>Sorria+</h2>
+            <h2 class="esquerda">Olá</h2>
+            <h1 class="centro">Sorria+</h1>
+            <a asp-controller="CadMedico" asp-action="LoginM" class="btn-voltar direita">Sair</a>
         </nav>
     </header>
 
-    <div class="lista">
-        <table>
-            <thead>
-                <tr>
-                    <th>Data e Hora</th>
-                    <th>Local</th>
-                    <th>Paciente</th>
-                    <th>Tipo</th>
-
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>10/12/2025</td>
-                    <td>Sorria+ Osasco</td>
-                    <td>Adriana Lima</td>
-                    <td>Bucomaxilar</td>
-                </tr>
-            </tbody>
-        </table>
-        <button id="btneditar" class="btn">Cancelar</button>
+    <div class="paiCarteirinha">
+        <div class="carteirinha">
+            <h3>CRM</h3>
+            <label>Nome: DR. João Silva </label>
+            <label>Número: 246810918 </label>
+            <label>Especialidade: Odontologia </label>
+        </div>
     </div>
-    <button class="popup">Agendar consulta</button>
 
-    <div class="modal" id="modal">
-        <img src="~/img/btn-close.png" class="btn-close" id="btn-close" />
-        <div class="form-group">
-            <label for="especialidade">Escolha a especialidade:</label>
-            <select id="especialidade" class="form-control">
-                <option value="Cardiologia">Cardiologia</option>
-                <option value="Ortopedia">Ortopedia</option>
-                <option value="Pediatria">Pediatria</option>
-                <option value="Clínica Geral">Clínica Geral</option>
-            </select>
+    <div class="container-cards">
+        <div class="card-consulta">
+            <div class="info">
+                <h3>Letícia Xavier</h3>
+                <p><strong>Plano:</strong>Sorria+ Premium</p>
+                <p><strong>Data:</strong> 15/12/2026</p>
+                <p><strong>Hora:</strong> 10:00</p>
+                <p><strong>Local:</strong> Sorria+ Pinheiros</p>
+            </div>
+            <div class="status">
+                <button class="cancelar"> Cancelar</button>
+                <button class="editar"> Confirmar</button>
+                <label class="pendente">Pendente</label>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="medico">Médico disponível:</label>
-            <select id="medico" class="form-control" disabled>
-                <option value=""></option>
-            </select>
-        </div>
+        <div class="card-consulta">
+            <div class="info">
+                <h3>Victória Souza</h3>
+                <p><strong>Plano:</strong>Sorria+ Essencial</p>
+                <p><strong>Data:</strong> 12/12/2025</p>
+                <p><strong>Hora:</strong> 11:30</p>
+                <p><strong>Local:</strong> Sorria+ Osasco</p>
+            </div>
+            <div class="status">
+                <button class="cancelar"> Cancelar</button>
+                <button class="editar"> Confirmar</button>
+                <label class="pendente">Pendente</label>
 
-        <div class="form-group">
-            <label for="unidade">Unidade(s) disponível(is):</label>
-            <select id="unidade" class="form-control" disabled>
-                <option value=""></option>
-            </select>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="horario">Horário disponível:</label>
-            <select id="horario" class="form-control" disabled>
-                <option value=""></option>
-            </select>
+        <div class="card-consulta">
+            <div class="info">
+                <h3>Júlio Mesquita</h3>
+                <p><strong>Plano:</strong>Sorria+ Plus</p>
+                <p><strong>Data:</strong> 03/12/2025</p>
+                <p><strong>Hora:</strong> 16:00</p>
+                <p><strong>Local:</strong> Sorria+ Vila Mariana</p>
+            </div>
+            <div class="status">
+                <button class="cancelar"> Cancelar</button>
+                <button class="editar"> Confirmar</button>
+                <label class="pendente">Pendente</label>
+            </div>
         </div>
-        <button type="submit" class="btn btn-primary">Agendar Consulta</button>
-
     </div>
 
     <script src="~/js/IndexM.js"></script>
