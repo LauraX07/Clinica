@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Clinica\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Clinica\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwB0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-30T22:20:09.554Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "Clinica\\wwwroot\\css\\Index.css",
               "ToolTip": "C:\\Users\\layla\\OneDrive\\\u00C1rea de Trabalho\\ProjetoClinica\\Clinica\\wwwroot\\css\\Index.css",
               "RelativeToolTip": "Clinica\\wwwroot\\css\\Index.css",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAwwIIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-11-30T23:19:30.129Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "Clinica\\wwwroot\\css\\IndexM.css",
               "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-01T21:04:26.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:04:26.894Z"
             },
             {
               "$type": "Document",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "Clinica\\Views\\Home\\IndexM.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-01T20:21:59.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T20:21:59.28Z"
             },
             {
               "$type": "Document",
@@ -118,8 +116,7 @@
               "RelativeToolTip": "Clinica\\Views\\CadMedico\\LoginM.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-01T21:17:08.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:17:08.866Z"
             },
             {
               "$type": "Document",
@@ -143,8 +140,7 @@
               "RelativeToolTip": "Clinica\\wwwroot\\js\\IndexM.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-12-01T21:04:54.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:04:54.419Z"
             }
           ]
         }
