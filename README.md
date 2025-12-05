@@ -1,3 +1,8 @@
+Laura Valentini Xavier da Silva
+Lucas Lauand Dainez
+
+Explicação dos códigos view, model, controller
+
 IndexM
 HEADER
 header class="topo"
@@ -43,45 +48,45 @@ div class="paiCarteirinha"
 1.div class="paiCarteirinha"
 É um container externo para centralizar o cartão no layout.
 
-2. div class="carteirinha">
+2. div class="carteirinha"
 Bloco que representa o cartão do profissional.
 
-3. <h3>CRM</h3>
+3. h3 CRM h3
 Funciona como um título de tamanho pré-definido
 
-4. <label>Nome: DR. João Silva </label>
- <label>Número: 246810918 </label>
- <label>Especialidade: Odontologia </label>
+4. label Nome: DR. João Silva label
+ label Número: 246810918 label
+ label Especialidade: Odontologia label
 Conteúdo Interno. Cada label representa um dado fixo do médico:
 Nome, Número CRM e Especialidade.
 CARDS DE CONSULTAS
-<div class="container-cards">
-<div class="card-consulta">
- <div class="info">
- <h3>Letícia Xavier</h3>
- <p><strong>Plano:</strong>Sorria+ Premium</p>
- <p><strong>Data:</strong> 15/12/2026</p>
- <p><strong>Hora:</strong> 10:00</p>
- <p><strong>Local:</strong> Sorria+ Pinheiros</p>
- </div>
- <div class="status">
- <button class="cancelar"> Cancelar</button>
- <button class="editar"> Confirmar</button>
- <label class="pendente">Pendente</label>
- </div>
-</div>
+div class="container-cards"
+div class="card-consulta"
+ div class="info"
+ h3 Letícia Xavier h3
+ p strong Plano:strong Sorria+ Premium p
+ p strong Data: strong 15/12/2026 p
+ p strong Hora:</strong> 10:00 p
+ p strong Local:</strong> Sorria+ Pinheiros p
+ div
+ div class="status"
+ button class="cancelar" Cancelar button
+ button class="editar" Confirmar button
+ label class="pendente" Pendente label
+ div
+div
   
-1.<div class="container-cards">
+1.div class="container-cards"
 Um container designado para agrupar todos os cards.
 
-2. <div class="card-consulta">
+2. div class="card-consulta"
 É o bloco visual da consulta.
 
-3. <div class="info">
+3. div class="info"
 Agrupa todos os dados dos pacientes: Nome, Tipo de Plano, Data,
 Hora, Local de Consulta.
 
-4. <div class="status">
+4. div class="status"
 É o bloco que contém as ações: Cancelar, Confirmar e a indicação
 Pendente como label. As classes serão utilizadas como
 identificação para a estilização no CSS.
@@ -105,90 +110,90 @@ ASP.NET Core. É um padrão quando existe um formulário, mesmo
 que aqui não esteja sendo usado diretamente.
 Index
 HEADER
-<header class="topo">
- <nav class="barraNav">
- <h2 class="esquerda">Olá</h2>
- <h1 class="centro">Sorria+</h1>
- <a asp-controller="CadPaciente" asp-action="LoginP"
-class="btn-voltar direita">Sair</a>
- </nav>
-</header>
+header class="topo"
+ nav class="barraNav"
+ h2 class="esquerda" Olá h2
+ h1 class="centro" Sorria+ h1
+ a asp-controller="CadPaciente" asp-action="LoginP"
+class="btn-voltar direita" Sair a
+ nav
+header
 
-1.<header class="topo">
+1.header class="topo"
 Cria um cabeçalho no site e a classe topo é usado para estilização
 no CSS.
 
-2.<nav class="barraNav">
+2.nav class="barraNav"
 Define um tipo de barra de navegação. A classe barraNav é
 utilizada no CSS para definir a aparência da barra.
 
-3.<h2 class="esquerda">Olá</h2>
+3.h2 class="esquerda" Olá h2
 
-4.<h1 class="centro">Sorria+</h1>
+4.h1 class="centro" Sorria+ h1
 h1 e h2 são tamanhos de textos e class indica a sua posição em
 relação ao elemento demarcado.
 
-5.<a asp-controller="CadPaciente" asp-action="LoginP" class="btnvoltar direita">Sair</a>
+5.a asp-controller="CadPaciente" asp-action="LoginP" class="btnvoltar direita" Sair a
 Não é um link HTML comum, é um Tag Helper do ASP.NET Core.
 O asp-controller=" CadPaciente " direciona para a controller
 CadMedico. asp-action="LoginP" chama a action LoginP.
 class="btn-voltar direita" é utilizada no CSS para estilizar o botão.
 CARTEIRINHA DO PACIENTE
-<div class="paiCarteirinha">
- <div class="carteirinha">
- <h3>Carteirinha Sorria+</h3>
- <label>Nome: Laura Valentini Xavier da Silva</label>
- <label>Número: 123456789 </label>
- <label>Plano: Sorria+ Plus </label>
- </div>
-</div>
+div class="paiCarteirinha"
+ div class="carteirinha"
+ h3 Carteirinha Sorria+ h3
+ label Nome: Laura Valentini Xavier da Silva label
+ label Número: 123456789 label
+ label Plano: Sorria+ Plus label
+ div
+div
 
-1.<div class="paiCarteirinha">
+1.div class="paiCarteirinha"
 É um container externo para centralizar a carteirinha no layout.
 
-2. <div class="carteirinha">
+2. div class="carteirinha"
 Bloco que representa a carteirinha do paciente.
 
-3. <h3>CRM</h3>
+3. h3 CRM h3
 Funciona como um título de tamanho pré-definido
 
-4. <label>Nome: DR. João Silva </label>
- <label>Número: 246810918 </label>
- <label>Especialidade: Odontologia </label>
+4. label Nome: DR. João Silva label
+ labelNúmero: 246810918 </label>
+ labelEspecialidade: Odontologia label
 Conteúdo Interno. Cada label representa um dado fixo do paciente:
 Nome, Número e Tipo de Plano.
 MODAL PARA AGENDAMENTO
-<div class="paiModal">
- <div class="modal" id="modal">
- <img src="~/img/btn-close.png" class="btn-close" id="btnclose"/>
+div class="paiModal"
+ div class="modal" id="modal"
+ img src="~/img/btn-close.png" class="btn-close" id="btnclose"
    
-1. <div class="paiModal">
+1. div class="paiModal"
 Container geral do modal.
 
-2. <div class="modal" id="modal">
+2. div class="modal" id="modal"
 A janela de agendamento que aparece por cima da tela. Classe
 modal utilizada para a identificação na estilização do CSS. ID modal
 utilizado pelo JS para abrir e fechar o modal.
 
-3.<img src="~/img/btn-close.png" class="btn-close" id="btn-close"/>
+3.img src="~/img/btn-close.png" class="btn-close" id="btn-close"
 Botão de fechar o modal com uma imagem inserida.
 FORMULÁRIO DO MODAL
-<div class="form-group">
-<label for="especialidade">Escolha a especialidade:</label>
-<select id="especialidade" class="form-control">
+div class="form-group"
+label for="especialidade">Escolha a especialidade: label
+select id="especialidade" class="form-control"
   
-1.<div class="form-group">
+1.div class="form-group"
 Organiza os grupos de entrada
 
-2.<label for="especialidade">Escolha a especialidade:</label>
+2.label for="especialidade" Escolha a especialidade: label
 Vincula o texto ao campo.
 
-3. <select id="especialidade" class="form-control">
+3. select id="especialidade" class="form-control"
 Lista de opções. Cada select representa uma lista de: Médicos,
 Unidades e Horários Disponíveis. A classe form-control é a
 identificação dos selects no CSS.
 BOTÃO AGENDAR
-<button type="submit" class="btn-agendar">Agendar
+button type="submit" class="btn-agendar" Agendar
 Consulta</button>
 
 1.button type="submit"
@@ -232,10 +237,10 @@ div class="popup-container"
  button class="popup">Agendar consulta button
 div
 
-1. <div class="popup-container">
+1. div class="popup-container"
 Cria um container para armazenar o botão popup.
 
-2. <button class="popup">Agendar consulta</button>
+2. button class="popup" Agendar consulta button
 Cria um botão que tem a função de agendar a consulta. Classe para
 a estilização no CSS.
 SCRIPTS
@@ -280,34 +285,34 @@ Define o tipo de modelo que essa view recebe.
 2.ViewData["Title"] = "Cadastrar";
 Define o título da página, normalmente utilizado no _Layout.cshtml.
 
-3.<div id="containerP" class="containerP">
+3. div id="containerP" class="containerP"
 Uma div que envolve todo o formulário de cadastro.
 
-4.<form asp-action="CadastroP" asp-controller="CadPaciente"
-method="post">
+4.form asp-action="CadastroP" asp-controller="CadPaciente"
+method="post"
 No POST, envia para o método:
 CadPacienteController.CadastroP(CadPac model)
 
-5.<select id="inputO" class="form-control">
+5. select id="inputO" class="form-control"
 Serve para redirecionar via JavaScript.
 
-6. <label asp-for="Carteirinha"></label>
-<input asp-for="Carteirinha" class="form-control">
-<span asp-validation-for="Carteirinha" class="text-danger"></span>
+6. label asp-for="Carteirinha" label
+input asp-for="Carteirinha" class="form-control"
+span asp-validation-for="Carteirinha" class="text-danger" span
 Label recebe ao nome do atributo da Model, input vinculado à
 propriedade Carteirinha, Validação em tempo real com data
 annotations. Padrão válido para: CPF, Nome, DataNasci, Email,
 Senha, Sexo, Telefone, IdPlano.
 
-7. <select asp-for="Sexo">
- <option value="" disabled selected>Sexo:</option>
+7. select asp-for="Sexo"
+ option value="" disabled selected Sexo: option
 Se o valor vindo do Model for "F" ou "M", o Razor coloca selected
 sozinho.
 
-8. <a asp-action="LoginP" asp-controller="CadPaciente"
-class="btntroca">
+8. a asp-action="LoginP" asp-controller="CadPaciente"
+class="btntroca"
  Já tem conta? Faça Login
-</a>
+a
 Tag Helper gera URL automaticamente:
 /CadPaciente/LoginP
 
@@ -331,15 +336,15 @@ Define que esta View utiliza o modelo CadPac.
 Define o título da página, usado no layout _Layout.cshtml quando
 renderiza <title> dinamicamente.
 
-3. <img src="~/img/dente4bg.jpg" class="imgbg" />
+3. img src="~/img/dente4bg.jpg" class="imgbg" 
 Define uma imagem de fundo.
 
-4. <div id="LoginP" class="LoginP">
+4. div id="LoginP" class="LoginP"
 Contêiner que centraliza e estiliza o formulário de login.
 Usado também pelo JavaScript (Paciente.js).
 
-5. <form asp-action="LoginP" asp-controller="CadPaciente"
-method="post">
+5. form asp-action="LoginP" asp-controller="CadPaciente"
+method="post"
 asp-action="LoginP" envia o POST para o método LoginP do
 controller.
 asp-controller="CadPaciente" envia para CadPacienteController.
@@ -356,7 +361,7 @@ select
 Este bloco cria um elemento <select> com opções que permitem ao
 usuário escolher tipo de acesso: Paciente ou Médico.
 
-8. <div class="form-group">
+8. div class="form-group"
  label for="inputCPF"CPFlabel
  input asp-for="Cpf" class="form-control" id="inputCPF"
  span asp-validation-for="Cpf" class="text-danger" span
